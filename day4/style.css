@@ -1,0 +1,92 @@
+/* The Tag Selector */
+body {
+    background-color: bisque;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    position: static;
+}
+
+p {
+    color: blue;
+}
+
+/* dimension: px, %, em */
+/* color: name, #000000, rgb(r,g,b) */
+
+
+/* Class Selector */
+.first_para {
+    color:red;
+}
+.red_apple {
+    background-color: green;
+    margin-top: 40px;
+    position: sticky;
+    bottom: 10px;
+    right: 10px;
+}
+.green_apple {
+    background-color: red;
+    margin-top: 40px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.circular{
+    border-radius: 100%;
+}
+
+/* ID Selector */
+#special {
+    background-color: rgb(100, 30, 120);
+    color: goldenrod;
+    font-weight: bold;    
+}
+
+/* Grouping the Selectors */
+.ekGroup, h1 {
+    background-color: rgb(38, 229, 181);
+    color: rgb(218, 32, 113);
+    font-weight: bold;
+}
+
+/* Pseudo Selector */
+.apple{
+    color: brown;
+}
+
+.apple:hover{
+    background-color: gold;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+/* playing with div and style */
+
+.firstBox {
+    background-color: rgb(255, 0, 187);
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.secondBox {
+    background-color: rgb(21, 255, 0);
+    left: 10px;
+    position: relative;
+    top:-90px;
+    width: 100px;
+    height: 100px;
+}
+
+.thirdBox {
+    background-color: rgb(19, 17, 18);
+    left: 20px;
+    position: relative;
+    top:-180px;
+    width: 100px;
+    height: 100px;
+}
